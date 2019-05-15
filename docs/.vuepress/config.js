@@ -36,23 +36,23 @@ module.exports = {
       text: "gongkao",
       items: [{
           text: "yanyu",
-          link: "/gongkao/yanyu"
+          link: "/gongkao/yanyu/"
         },
         {
           text: "changshi",
-          link: "/gongkao/changshi"
+          link: "/gongkao/changshi/"
         },
         {
           text: "shuliang",
-          link: "/gongkao/shuliang"
+          link: "/gongkao/shuliang/"
         },
         {
           text: "panduan",
-          link: "/gongkao/panduan"
+          link: "/gongkao/panduan/"
         },
         {
           text: "ziliao",
-          link: "/gongkao/ziliao"
+          link: "/gongkao/ziliao/"
         }
       ]
     }, ],

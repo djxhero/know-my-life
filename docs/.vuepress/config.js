@@ -8,8 +8,8 @@ module.exports = {
     }]
   ],
 
-  title: '格知',
-  description: '無善無惡心之體，有善有惡意之動，知善知惡是良知，為善去惡是格物。',
+  title: '格子',
+  description: '',
 
   themeConfig: {
     // 假定是 GitHub. 同时也可以是一个完整的 GitLab URL
@@ -62,14 +62,14 @@ module.exports = {
         path: '/gongkao/'// 可选的, 应该是一个绝对路径
       },
       {
-        title: 'yanyu', // 必要的
+        title: '言语理解', // 必要的
         // path: '/gongkao/yanyu', // 可选的, 应该是一个绝对路径
         collapsable: false, // 可选的, 默认值是 true,
         sidebarDepth:2, // 可选的, 默认值是 1
         children: [
           'gongkao/yanyu/',
           {
-            title: 'yanyu-xuanci', // 必要的
+            title: '语句填空', // 必要的
             path: '/gongkao/yanyu/fill-word', // 可选的, 应该是一个绝对路径
             collapsable: false // 可选的, 默认值是 true,
           }
@@ -84,6 +84,6 @@ module.exports = {
         ]
       }
     ],
-    lastUpdated: 'Last Updated', // string | boolean
+    lastUpdated: '最后更新', // string | boolean
   }
 }
